@@ -1,0 +1,29 @@
+name: flutter_application_w7
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  # cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.5.0
+  geolocator: ^9.0.2
+  http: ^1.1.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/.env
